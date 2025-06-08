@@ -1,6 +1,15 @@
 {
   "name": "java-cool",
+  "type": "module",
   "scripts": {
-    "dev": "gradlew bootRun"
+    "dev": "gradlew bootRun",
+    "generate": "tsx swagger.ts"
+  },
+  "devDependencies": {
+    "@hey-api/client-fetch": "0.12.0",
+    "graceful-kill": "8.1.0",
+    "@hey-api/openapi-ts": "0.71.1",
+    "@types/node": "22.15.30",
+    "tsx": "4.19.4"
   }
 }
